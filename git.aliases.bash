@@ -21,6 +21,9 @@ alias gcam="git commit -v -am"
 alias gco='git checkout'
 alias gcom='git checkout master'
 
+function fall() { 
+   find . -type f -exec grep -iH "$1" \{\} \;
+}
 # Aliases
 # alias gf='git fetch --all --prune'
 # alias gft='git fetch --all --prune --tags'
