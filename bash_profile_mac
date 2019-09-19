@@ -1,0 +1,4 @@
+# We need this since on MAC, terminal opens a "login" shell which means only .bash_profile gets
+# executed.
+
+[[ -s ~/.bashrc ]] && source ~/.bashrc
