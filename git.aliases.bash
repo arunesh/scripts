@@ -10,7 +10,7 @@ alias gss='git status -s'
 alias gl='git pull'
 
 alias gp='git push'
-alias gpom='git push origin master'
+alias gpom='git push origin main'
 alias gpo='git push origin'
 
 alias gc='git commit -v'
@@ -19,7 +19,7 @@ alias gcm='git commit -v -m'
 alias gcam="git commit -v -am"
 
 alias gco='git checkout'
-alias gcom='git checkout master'
+alias gcom='git checkout main'
 
 function fall() { 
    find . -type f -exec grep -iH "$1" \{\} \;
@@ -37,7 +37,7 @@ function fall() {
 # alias g='git'
 # alias get='git'
 # alias gsu='git submodule update --init --recursive'
-# alias glum='git pull upstream master'
+# alias glum='git pull upstream main'
 # alias gpr='git pull --rebase'
 # alias gpp='git pull && git push'
 # alias gup='git fetch && git rebase'
@@ -62,7 +62,7 @@ function fall() {
 # alias gct='git checkout --track'
 # alias gexport='git archive --format zip --output'
 # alias gdel='git branch -D'
-# alias gmu='git fetch origin -v; git fetch upstream -v; git merge upstream/master'
+# alias gmu='git fetch origin -v; git fetch upstream -v; git merge upstream/main'
 # alias gll='git log --graph --pretty=oneline --abbrev-commit'
 # alias gg="git log --graph --pretty=format:'%C(bold)%h%Creset%C(magenta)%d%Creset %s %C(yellow)<%an> %C(cyan)(%cr)%Creset' --abbrev-commit --date=relative"
 # alias ggs="gg --stat"
